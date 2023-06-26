@@ -31,13 +31,13 @@ contract Funciones {
         return _numero1 + _numero2;
     }
 
+    uint private resultado;
+
 /**
 * La función 'obtenerResultado' es pública y de solo lectura (view),
 * lo que significa que puede ser llamada desde fuera del contrato y que solo lee el estado del contrato.
 * Esta función devuelve el valor de la variable 'resultado', que es privada y se inicializa en cero en el constructor.
 */
-    uint private resultado;
-
     function obtenerResultado() public view returns (uint) {
         return resultado;
     }

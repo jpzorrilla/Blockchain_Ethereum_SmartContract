@@ -1,7 +1,4 @@
 // SPDX-License-Identifier: GPL-3.0
-
-// ME QUEDE EN EL VIDEO 15
-
 pragma solidity >=0.7.0 <0.9.0;
 
 contract Recepcion {
@@ -31,5 +28,9 @@ contract Recepcion {
     function recibirSaldo(uint _numero) public payable {
         saldoEnviado = msg.value;
         uint monto = _numero;
+/**
+* Aparecerá un warning en la variable monto, pero lo dejamos ya que no afecta,
+* dado que, lo que nos interesa verificar el saldo recibido.
+*/
     }
 }
