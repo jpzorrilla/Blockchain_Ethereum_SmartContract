@@ -16,6 +16,6 @@ Este repositorio contiene una colección de Smart Contracts desarrollados con el
 10. Recepción. Código para recibir saldo en un smart contract.
 ### Casos de uso
 11. Crowdfunding. Código para programar un smart contract que permita hacer crowdfunding de proyectos.
-12. Tokens.
-13. NFT.
-14. Cadena de suministro.
+12. Tokens. Este código define un contrato inteligente que implementa las funciones básicas de un token ERC20.
+13. NFT. Este código define un contrato inteligente el cual implementa la interfaz ERC721 para Tokens No Fungibles (NFT) con almacenamiento de URI.
+14. Cadena de suministro. Este código define un contrato que representa una cadena de suministro.
