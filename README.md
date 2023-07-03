@@ -19,3 +19,4 @@ Este repositorio contiene una colección de Smart Contracts desarrollados con el
 12. Tokens. Este código define un contrato inteligente que implementa las funciones básicas de un token ERC20.
 13. NFT. Este código define un contrato inteligente el cual implementa la interfaz ERC721 para Tokens No Fungibles (NFT) con almacenamiento de URI.
 14. Cadena de suministro. Este código define un contrato que representa una cadena de suministro.
+15. Control de acceso. Este código utiliza la librería AccessControl de OpenZeppelin para gestionar los roles de los usuarios.
